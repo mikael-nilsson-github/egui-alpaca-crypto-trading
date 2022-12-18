@@ -1,4 +1,4 @@
-# egui-crypto-trading
+# egui-alpaca-crypto-trading
 
 I'm new to Rust and egui/eframe and I'm rebuilding my previous trading platform written in C. So far I'm very impressed by Rust as well as how simple it is to get started with the egui/eframe library/framework.
 
