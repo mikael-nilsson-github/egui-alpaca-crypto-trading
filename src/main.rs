@@ -24,7 +24,7 @@ fn alpaca(
     let (mut socket, _response) = connect(Url::parse(BASE_URL).unwrap()).expect("Can't connect");
     println!("{:#?}", _response);
 
-    let authorization = r#"{"action": "auth", "key": "PK6J93WFUXB5R7TD8ROG", "secret": "6RasUPSw9RcDl9kcVwtivv3V5ajREq2j0umh5nEk"}"#;
+    let authorization = r#"{"action": "auth", "key": "{YOUR_SECRET_ID}", "secret": "YOUR_SECRET_KEY"}"#;
     let subscribe = r#"{"action":"subscribe","trades":["BTC/USD","ETH/USD","SOL/USD","LINK/USD","LTC/USD","MATIC/USD"],"quotes":[],"bars":[]}"#;
 
     socket.write_message(Message::Text(authorization.into())).unwrap();
