@@ -1,5 +1,5 @@
 [package]
-name = "crypto"
+name = "egui-alpaca-crypto-trading"
 version = "0.1.0"
 edition = "2021"
 
