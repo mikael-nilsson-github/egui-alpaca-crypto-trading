@@ -6,4 +6,4 @@ I'm new to Rust and egui/eframe and I'm rebuilding my previous trading platform 
 
 This is a quick and dirty first attemp to a new graphical user interface for my machine learning and AI algorithms. I hope it may inspire you to get started with Rust and egui/eframe.
 
-For rendering of candlestick charts as well as on demand repaint of the gui (idle otherwise), please see my other repositories.
+For rendering of candlestick charts, on demand repaint of the gui (idle otherwise) and a more structured way of egui navigation, please see my other repositories.
