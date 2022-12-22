@@ -3,7 +3,7 @@ use tungstenite::{connect, Message};
 use serde_json;
 use std::sync::{Arc, Mutex};
 
-use crypto::app::App;
+use egui_alpaca_crypto_trading::app::App;
 
 const BASE_URL: &str = "wss://stream.data.alpaca.markets/v1beta2/crypto";
 
